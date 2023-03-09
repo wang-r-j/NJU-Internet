@@ -1,0 +1,6 @@
+#!/bin/bash
+
+python3 main.py keep --tstp "$@"
+bg
+disown
+echo 'Running in background'
