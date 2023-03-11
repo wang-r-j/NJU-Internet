@@ -1,10 +1,12 @@
 # NJU Internet
 
-Login, keep login or logout from Internet securely in NJU.
+Login, keep login or logout from Internet securely in Nanjing University.
+
+南京大学校园网安全登录登出脚本。可选择一次性登录登出、在前台或后台保持登录、定时登出。
 
 The script uses a portal API with the https protocol, which still works so far (2023.3).
 
-The passwords are read directly from tty without echo, instead of command line arguments or python files, preventing the secure issues in other scripts.
+The passwords are read directly from tty without echo, instead of command line arguments or python files, preventing the secure issues in some other scripts.
 
 - [Preparation](#preparation)
 - [Usage](#usage)
